@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{array}
+
+
+
+\begin{document}
+
+\centerline{\Large\underline{Listas y tablas}}
+
+\bigskip
+
+\renewcommand{\labelitemi}{\Large\color{red}\textbullet}
+\addtolength{\leftmarginii}{3cm}
+\begin{itemize}
+ \item Otro pequeño ejemplo de cómo podemos anidar los 
+  entornos itemize y enumerate. Éste apartado contiene 
+  tres subapartados
+ \begin{enumerate}[\bfseries Enm{i}end{a} 1 \hspace{3mm}]
+  \item Texto texto...
+  \item Texto texto...
+  \item Texto texto...
+ \end{enumerate}
+ \item Segundo apartado,que contiene a su vez tres subapartados:
+ \begin{enumerate}[\color{blue}\itshape Secc{i}ón A \hspace{3mm}]
+  \item Texto texto...
+  \item Texto texto...
+  \item Texto texto...
+ \end{enumerate}
+\end{itemize}
+
+\end{document}
