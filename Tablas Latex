@@ -1,0 +1,27 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\begin{document}
+\begin{enumerate}
+ \item[Historia del swag]
+ \item[Biología del Swag]
+ \begin{enumerate}
+ \item[Bioquímica del Swag]
+ \item[Genética del Swag]
+ \item[Regulación génica del Swag]
+ \item[Corrientes filosóficas del Swag]
+ \end{enumerate}
+ \item[El Swag en el siglo XXI]
+ \item[Swag como modo de viva]
+ \item[Los "Swaggers" mentirosos compulsivos, falsa historia   de la grandeza de esta cultura]
+ \item[La historia de Ok y el AntiOk]
+ \item[Pues ok]
+\end{enumerate}
+\end{document}
